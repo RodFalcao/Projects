@@ -1,0 +1,41 @@
+
+@media screen and (max-width: 1400px) {
+    body {
+        background-color: black;
+        
+    }
+    .bt-nav {
+        display: none;
+    }
+    #int-text {
+        padding: 0;
+        width: 100%;
+    }
+    #bt-nav {
+        display: none;
+    }
+    .bt-embed {
+        display: flex;
+        margin-left: 15%;
+    }
+    .embed-registro {
+        display: none;
+    }
+    .user-icon {
+        display: flex;  
+    }
+    .w-100 {
+        width: 100%;
+    }
+    .frame-discord {
+        display: none;
+    }
+}
+@media screen and (max-width: 1890px) {
+    .frame-discord {
+        display: none;
+    }
+    .sumir {
+        display: none;
+    }
+}
