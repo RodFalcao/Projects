@@ -1,0 +1,53 @@
+.login-form {
+    padding: 20px;
+}
+.imput-wrapper {
+    margin: 15px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+form {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+
+    label {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    input {
+        margin: 4px;
+        color: rgb(202, 202, 202);
+        padding: 20px;
+        background: rgba(16, 16, 19, 0.45);
+        backdrop-filter: blur(20px);
+        border: 1px solid rgba(101, 98, 133, 0.12);
+        border-radius: 10px;
+    }
+}
+fieldset {
+    border: none;
+}
+input, text, select {
+    appearance: none;
+    width: 100%;
+    border-radius: .5rem;
+    background: rgba(16, 16, 19, 0.45);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(101, 98, 133, 0.12);
+}
+legend {
+    gap: 5px;
+}
+input:focus, select:focus, textarea:focus{
+    outline: 1px solid rgb(255, 83, 83);
+    border: 1px solid rgba(255, 150, 150, 0.432);
+}

@@ -1,0 +1,93 @@
+body {
+    background: #131316;
+    font-family: "Montserrat", sans-serif;
+     font-optical-sizing: auto;
+}
+.staff-container {
+    width: 80%;
+    margin: 20px auto; 
+}
+
+.staff-role {
+    background: #19191d;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.staff-role h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    color: #fff;
+}
+.staff-role p {
+    color: #fff;
+    font-weight: bold; 
+}
+
+
+
+
+.admin {
+    border-top: 5px solid red;
+}
+.mod-plus {
+    border-top: 5px solid purple;
+}
+.mod {
+    border-top: 5px solid seagreen;
+}
+.diretor {
+    border-top: 5px solid orangered;
+}
+.subdiretor {
+    border-top: 5px solid darkorange;
+}
+.gerente {
+    border-top: 5px solid deepskyblue;
+}
+.senior {
+    border-top: 5px solid aquamarine;
+}
+.ajudante {
+    border-top: 5px solid greenyellow;
+}
+.empresa {
+    border-top: 5px solid darkgreen;
+}
+.host {
+    border-top: 5px solid rebeccapurple;
+}
+.patro {
+    border-top: 5px solid dimgray;
+}
+.aonde {
+    border-top: 5px solid orange;
+}
+
+
+
+
+.members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Alinha os membros à esquerda */
+    gap: 15px; /* Adiciona espaço entre os membros */
+}
+
+.member {
+    display: flex;
+    flex-direction: column; /* Mantém a imagem e o texto na vertical */
+    align-items: center; /* Centraliza a imagem e o texto */
+    margin: 10px;
+    text-align: center; /* Centraliza o texto */
+}
+
+.member img {
+    width: 48px;
+    height: 48px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+

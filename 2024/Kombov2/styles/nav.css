@@ -1,0 +1,39 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.nav-follow {
+    position: fixed;
+    z-index: 1000;
+}
+a {   
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    object-fit: cover;
+    height: 50px;
+    font-weight: bold;
+    margin-right: 8%;
+}
+#bt-nav {
+    margin-left: 8%;
+}
+.bt-nav {
+    font-size: 14px;
+    color: white;
+    border: 1px solid rgba(255, 178, 62, 0); 
+    border-radius: 8px;
+    transition: 0.5s;
+    
+}
+.bt-nav:hover {
+    background: rgba(255, 252, 247, 0.185); 
+    border: 1px solid rgba(255, 255, 254, 0.185); 
+} 
