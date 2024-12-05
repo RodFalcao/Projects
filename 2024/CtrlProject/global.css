@@ -1,0 +1,69 @@
+@import url(styles/nav.css);
+@import url(styles/index.css);
+@import url(styles/utility.css);
+@import url(styles/animations.css);
+@import url(styles/mobile.css);
+@import url(styles/projects.css);
+@import url(styles/linktree.css);
+@import url(styles/minecraft.css);
+@import url(styles/papers.css);
+* {
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --bg: #09090B;
+    --stroke: #18181B;
+    --stroke-2:#2d2d339c;
+
+    --bg-light: #0C0C0F;
+    --bg-white: #ffffff ;
+    --bg-panels: #17171a;
+    --stroke-light: #27272A;
+
+}
+
+html {
+    background-color: var(--bg);
+    font-family: "Baloo 2", sans-serif;
+
+    h1 {
+        font-weight: bolder;
+        color: white;
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-weight: bolder;
+        color: #95a2b3;
+        font-size: 1.5rem;
+    }
+    h3, p {
+        font-size: 1.2rem;
+        color: #c1c8d1;
+    }
+
+}
+header {
+    background-image: url(assets/background/1\ \(1\).gif);
+}
+main {
+    margin-top: -5.5rem;
+    width: 100%;
+}
+footer {
+
+    background-color: var(--bg-panels);
+    h2 {
+        margin-top: 20px;
+        font-size: 1.2rem;
+        color: #e9f3ff;
+    }
+    .footer-btn {
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+    }
+}
+.btn {
+    font-weight: 500;
+    color: white;
+}

@@ -1,0 +1,76 @@
+#Linktree {
+    cursor: pointer;
+    margin-top: 100px;
+    text-align: center;
+
+    legend {
+        color: white;
+        font-weight: bolder;
+        font-size: 30px;
+    }
+    p {
+        color: gray;
+    }
+
+    .rede {
+        padding: 18px;
+        border-radius: 10px;
+        margin: 15px;
+        border: 1px solid var(--glass-background-medium);
+        background-color: var(--glass-line-medium);
+        transition: 0.3s;
+        
+        a {
+            color: white;
+            font-weight: bolder;
+            text-decoration: none;
+        }
+        img {
+            width: 50px;
+            height: 50px;
+        }
+    }
+    .rede:hover {
+        border: 1px solid rgba(255, 255, 255, 0.349);
+    }
+}
+#about-2 { 
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+
+    h1 {
+        font-size: 30px;
+    }
+    .about-color {
+        color: white;
+        margin-bottom: 20px;
+    }
+
+}
+#langs-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+
+    color: white;
+
+    .lang {
+        color: white;
+        margin: 10px;
+        padding: 5px;
+        border-radius: 8px;
+        background-color: var(--glass-line-medium);
+        border: 1px solid var(--glass-background-medium);
+        transition: 0.5s;
+    }
+    .lang:hover {
+        transform: scale(1.1);
+        transform: translateY(-10px);
+    }
+}
+.linktree-main {
+    height: 145px;
+}

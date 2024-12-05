@@ -1,0 +1,73 @@
+@import url(style/index.css);
+@import url(style/nav.css);
+@import url(style/utility.css);
+@import url(style/linktree.css);
+@import url(style/projetos.css);
+@import url(style/mine.css);
+@import url(style/mobile.css);
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+
+    --darkmode-line-light: #22242E;
+    --darkmode-background-light: #19171F;
+
+    --darkmode-line-medium: #16151D;
+    --darkmode-background-medium: #101016;
+
+    --darkmode-line-dark: #0D0D16;
+    --darkmode-background-dark: #0D0E0F;
+
+
+    --glass-line-medium: #22242e6b;
+    --glass-background-medium: #4a435e6c;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: var(--darkmode-background-dark);
+}
+header {
+    background: rgb(42,40,65);
+    background: linear-gradient(90deg, rgba(42,40,65,1) 0%, rgba(0,0,55,1) 46%, rgba(0,143,172,1) 100%);
+    height: 580px;
+
+    h2 {
+        margin-top: 5px;
+        font-size: 16px;
+    }
+}
+main {
+    background-color: var(--darkmode-background-medium);
+}
+h1 {
+    color: white;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid var(--glass-background-medium);
+    height: 200px;
+    background-color: var(--darkmode-background-medium);
+
+    h2, h3 {
+        margin-bottom: 10px;
+        color: white;
+    }
+    p {
+        color: gray
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    img{
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+}

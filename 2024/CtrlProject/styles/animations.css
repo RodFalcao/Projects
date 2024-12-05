@@ -1,0 +1,17 @@
+@keyframes slideup {
+    0%, 22% { transform: translateY(0rem);}
+    33%, 55% {transform: translateY(-3.7rem);}
+    66%, 88% {transform: translateY(-7.5rem)}
+    100% {transform: translateY(-11rem);}
+}
+@keyframes rolling {
+    to {
+        transform: translateX(-130px);
+    }
+}
+@keyframes slideup2 {
+    0%, 22% { transform: translateY(0rem);}
+    33%, 55% {transform: translateY(-3.7rem);}
+    66%, 88% {transform: translateY(-7.5rem)}
+    100% {transform: translateY(-11rem);}
+}

@@ -1,0 +1,123 @@
+.glass {
+    background: rgba(0, 0, 0, 0.582);
+    border: 1px solid var(--stroke-2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    -webkit-backdrop-filter: blur(32.9px);
+    backdrop-filter: blur(32.9px);
+}
+.glass2 {
+    background: var(--bg-panels);
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 30px rgba(250, 254, 255, 0.192);
+    -webkit-backdrop-filter: blur(12.9px);
+    backdrop-filter: blur(12.9px);
+    border: 1px solid rgba(20, 35, 51, 0.356);
+}
+.glass3 {
+    background: var(--bg-panels);
+    border-radius: 1.5rem;
+    -webkit-backdrop-filter: blur(12.9px);
+    backdrop-filter: blur(12.9px);
+    border: 1px solid rgba(43, 58, 75, 0.356);
+}
+.round-bg {
+    border-radius: 1.5rem;
+}
+.btn {
+    margin: 5px;
+}
+.shadow {
+    height: 300px;
+    background: linear-gradient(
+        rgba(0, 33, 66, 0) 0%, 
+        rgb(9, 9, 12) 50%
+    );
+}
+.shadow2 {
+    height: 120px;
+    background: linear-gradient(
+        rgba(0, 33, 66, 0) 0%, 
+        rgb(9, 9, 12) 50%
+    );
+}
+.shadow3 {
+    margin-top: 100px;
+    height: 220px;
+    background: linear-gradient(
+        rgba(0, 33, 66, 0) 0%, 
+        rgb(9, 9, 12) 50%
+    );
+}
+.tag-warn {
+    background-color: rgba(255, 139, 45, 0.452);
+    border-left: 3px solid orange;
+    width: 200px;
+    border-radius: 8px;
+}
+.tag-hilight {
+    background-color: rgba(101, 245, 255, 0.603);
+    width: 200px;
+    border-radius: 8px;
+    color: white;
+}
+
+.btn-style2 {
+    background-color: var(--bg-light);
+    border: 1px solid var(--stroke);
+    padding: 10px 20px;
+    border-radius: 1rem;
+    transition: 0.5s;
+}
+.btn-style2:hover {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px 35px; 
+}
+
+
+.btn-style5 {
+    background-color: var(--bg-light);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 1rem;
+    color: rgb(0, 0, 0);
+
+    transition: 0.5s;
+}
+.btn-style5:hover {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px 35px; 
+}
+.btn-style6 {
+    background-color: var(--bg-panels);
+    border: 1px solid rgb(71, 71, 71);
+    padding: 10px 20px;
+    border-radius: 1rem;
+
+    transition: 0.5s;
+}
+.btn-style6:hover {
+    color: black;
+    background-color: var(--bg-white);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.ctrlrody2 {
+    margin-top: -100px;  
+    transform: rotate(-5deg);
+    background-color: rgb(41, 43, 49);
+    overflow: hidden;
+
+}
+.ctrlrody {
+    margin-top: -130px;
+    transform: rotate(4deg);
+    background-color: rgb(35, 36, 43);
+    overflow: hidden;
+
+}
+.ctrlrody3 { 
+    height: 100px;
+    background-color: rgb(41, 43, 49);
+    overflow: hidden;
+
+}
