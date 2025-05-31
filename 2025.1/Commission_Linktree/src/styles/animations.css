@@ -1,0 +1,24 @@
+@keyframes grow {
+    from {
+        transform: scale(0.0);
+    }
+    to {
+        transform: scale(1.1);
+    }
+  }
+  @keyframes show {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  }
+  @keyframes move-up {
+    from {
+        transform: translateY(-50px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+  }

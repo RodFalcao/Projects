@@ -1,0 +1,23 @@
+@keyframes entrada {
+    from {
+      opacity: 0;
+      transform: translateY(-200px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .start-animation {
+    animation: entrada 1s ease-out;
+  }
+  @keyframes keyframes-fill {
+    0% {
+      transform: rotate(-180deg) scale(0);
+      opacity: 0;
+    }
+  
+    50% {
+      transform: rotate(-10deg) scale(1.2);
+    }
+  }

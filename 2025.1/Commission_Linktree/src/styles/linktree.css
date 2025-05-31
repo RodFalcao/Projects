@@ -1,0 +1,115 @@
+#custom-bio {
+    animation: show 2s ease;
+    border-radius: .5rem;
+    background-color: var(--glassNavigation);
+    border: 1px solid var(--stroke);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+
+    h1 {
+      color: var( --snow-light);
+      font-size: var(--font-xl);
+      font-weight: bolder;
+    }
+    p {
+        color: var(--shadow-grayer);
+    }
+    .badges {
+        background: var(--glassNavigation);
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
+        border-radius: .5rem; 
+        .badge {
+            margin: .5rem;
+        }
+        img {
+            width: 1rem;
+        } 
+    }
+    .social {
+        background: var(--glassNavigation);
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
+        padding: 1rem;
+        border-radius: .5rem;
+        transition: ease .3s;
+        img {
+            object-fit: cover;
+            width: 1.2rem;
+        }
+    }
+    .social:hover {
+        color: var( --stroke);
+        background-color: var(--snow-light);
+        img {
+            filter: invert(100%);
+        }
+    }
+}
+#accounts {
+    animation: show 2s ease;
+    h1 {
+        color: var( --snow-light);
+        font-size: var(--font-xl);
+        font-weight: bolder;
+      }
+      p {
+          color: var(--shadow-grayer);
+      }
+   #about {
+    
+    max-width: 480px;
+    background: var(--glassNavigation);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    padding: 1rem;
+    border-radius: .5rem; 
+    .profilepic-img {
+        width: 60px;
+        height: 60px;
+        border-radius: 5rem;
+    }
+    .img-frame {
+        border-radius: .5rem;
+        width: 100px;
+        object-fit: cover;
+        transition: .08s;
+        animation: grow .5s ease;
+        height: 100px;
+    }
+    .img-frame:hover {
+        transform: scale(1.10);
+    }
+    .social {
+        background: var(--glassNavigation);
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
+        padding: .5rem 1rem;
+        border-radius: .5rem;
+        transition: ease .3s;
+        color: var(--snow-light);
+        img {
+            object-fit: cover;
+            width: 1.2rem;
+        }
+    }
+    .social:hover {
+        color: var(--shadow-grayer);
+        background-color: var(--snow-light);
+        img {
+            filter: invert(100%);
+        }
+    }
+   }
+}
+#spotfy {
+    animation: move-up 3s ease;
+    width: 350px;
+    height: 400px;
+    background: var(--glassNavigation);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    padding: .5rem 1rem;
+    border-radius: .5rem; 
+}

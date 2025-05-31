@@ -1,0 +1,38 @@
+@import url(src/styles/linktree.css);
+@import url(src/styles/animations.css);
+
+
+:root {
+    /*Barra de navegação (navgation bar colors and sizes)*/
+    --glassNavigation: #22161f93;
+    --textDefault: #d5d4db;
+    --textSelected: #f5f3ff;
+    --selectedButton: #12121dbb;
+    --stroke: #3131422f;
+
+    /*text style */
+    --snow-light: #f0efff;
+    --aesthetic-white: #f8f7ff;
+    --aesthetic-wolf: #b0aeb8;
+    --transluced-glass: #232638f6;
+    --shadow-grayer: #8e8ca1;
+
+     /*Backgrounds */
+    --darkness-snow : #1c1c25a9;
+    --darkness-snow-stroke: #1f1f2ea9;
+
+    --font-xxl: 3rem;
+    --font-xl: 1.8rem;
+    --font-lg: 1.5rem;
+    --font-md: 1rem;
+    --font-sm: .8rem;
+}
+
+.bg-01 {
+    background-image: url(src/assets/backgrounds/gif\ foda\ -\ Copia.gif);
+    background-size: cover;
+}
+.bg-02 {
+    background-image: url(src/assets/backgrounds/latest-2987221517.gif);
+    background-size: cover; 
+}
